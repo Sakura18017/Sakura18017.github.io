@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2020/07/11/hello-world/</url>
-    <content><![CDATA[<p>测试文档</p>
-<h2 id="创建"><a href="#创建" class="headerlink" title="创建"></a>创建</h2><h3 id="子标题"><a href="#子标题" class="headerlink" title="子标题"></a>子标题</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">var str = <span class="string">"hello world"</span></span><br></pre></td></tr></table></figure>
-]]></content>
-  </entry>
-  <entry>
     <title>Git基础</title>
     <url>/2020/11/05/My-New-Post/</url>
     <content><![CDATA[<h1 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h1><p><strong>版本控制软件</strong>是一个用来记录文件变化，以便将来查阅特定</p>
