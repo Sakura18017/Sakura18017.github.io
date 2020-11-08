@@ -19,6 +19,19 @@
 ]]></content>
   </entry>
   <entry>
+    <title>Hello World</title>
+    <url>/2020/07/11/hello-world/</url>
+    <content><![CDATA[<p>测试文档</p>
+<h2 id="创建"><a href="#创建" class="headerlink" title="创建"></a>创建</h2><h3 id="子标题"><a href="#子标题" class="headerlink" title="子标题"></a>子标题</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">var str = <span class="string">"hello world"</span></span><br></pre></td></tr></table></figure>
+
+<a id="more"></a>
+
+<p>123123123</p>
+<p>123213</p>
+<p>123123</p>
+]]></content>
+  </entry>
+  <entry>
     <title>Vue基础</title>
     <url>/2020/11/08/Vue%E5%9F%BA%E7%A1%80/</url>
     <content><![CDATA[<p>###完整版：</p>
@@ -26,6 +39,8 @@
 
 <p>###压缩版（比如jQuery.min）：</p>
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;!-- 生产环境版本，优化了尺寸和速度 --&gt;</span><br><span class="line">&lt;script src=<span class="string">"https://cdn.jsdelivr.net/npm/vue"</span>&gt;&lt;<span class="regexp">/script&gt;</span></span><br></pre></td></tr></table></figure>
+
+<a id="more"></a>
 
 <p>###使用方法：</p>
 <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"app"</span>&gt;</span></span><br><span class="line">  &#123;&#123; message &#125;&#125;</span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
@@ -39,19 +54,6 @@
 <p>#####解决闪动问题：</p>
 <p>添加自定义属性：v-cloak</p>
 <p>使用属性选择器设置css样式使其隐藏</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2020/07/11/hello-world/</url>
-    <content><![CDATA[<p>测试文档</p>
-<h2 id="创建"><a href="#创建" class="headerlink" title="创建"></a>创建</h2><h3 id="子标题"><a href="#子标题" class="headerlink" title="子标题"></a>子标题</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">var str = <span class="string">"hello world"</span></span><br></pre></td></tr></table></figure>
-
-<a id="more"></a>
-
-<p>123123123</p>
-<p>123213</p>
-<p>123123</p>
 ]]></content>
   </entry>
 </search>
