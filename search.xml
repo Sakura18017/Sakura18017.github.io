@@ -19,6 +19,20 @@
 ]]></content>
   </entry>
   <entry>
+    <title>Hello World</title>
+    <url>/2020/07/11/hello-world/</url>
+    <content><![CDATA[<p>测试文档</p>
+<h2 id="创建"><a href="#创建" class="headerlink" title="创建"></a>创建</h2><h3 id="子标题"><a href="#子标题" class="headerlink" title="子标题"></a>子标题</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">var str = <span class="string">"hello world"</span></span><br></pre></td></tr></table></figure>
+
+<a id="more"></a>
+
+<p>123123123</p>
+<p>123213</p>
+<p>123123</p>
+<p><img src="/img/1604136879647.png" alt="1604136879647"></p>
+]]></content>
+  </entry>
+  <entry>
     <title>Vue基础</title>
     <url>/2020/11/08/Vue%E5%9F%BA%E7%A1%80/</url>
     <content><![CDATA[<h1 id="day01"><a href="#day01" class="headerlink" title="day01"></a>day01</h1><h2 id="vue-基本语法"><a href="#vue-基本语法" class="headerlink" title="vue 基本语法"></a>vue 基本语法</h2><h3 id="vue-概述"><a href="#vue-概述" class="headerlink" title="vue 概述"></a>vue 概述</h3><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">渐进式JavaScript框架</span><br><span class="line">声明式渲染=&gt;组件系统=&gt;客户端路由=&gt;集中式状态管理=&gt;项目构建</span><br><span class="line"></span><br><span class="line">https:<span class="comment">//cn.vuejs.org</span></span><br><span class="line"></span><br><span class="line">易用:熟悉html,css,js,可以快速上手</span><br><span class="line">灵活:可以在一个库和完整框架之间伸缩自如</span><br><span class="line">高效:<span class="number">20</span>KB运行大小,超快虚拟DOM</span><br></pre></td></tr></table></figure>
@@ -134,19 +148,5 @@
 <h2 id="async-await"><a href="#async-await" class="headerlink" title="async/await"></a>async/await</h2><h3 id="async-await-基本用法"><a href="#async-await-基本用法" class="headerlink" title="async/await 基本用法"></a>async/await 基本用法</h3><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="number">1.</span>简介(异步/等待)</span><br><span class="line"><span class="keyword">async</span>/awat是ES7引入的新语法,可以更加方便的进行异步操作</span><br><span class="line"><span class="keyword">async</span>关键字用于函数上( <span class="keyword">async</span>函数的返回值是 <span class="built_in">Promise</span>实例对象)</span><br><span class="line"><span class="keyword">await</span>关键字用于 <span class="keyword">async</span>函数当中( <span class="keyword">await</span>可以得到异步的结果)</span><br><span class="line"></span><br><span class="line"><span class="number">2.</span>用法</span><br><span class="line"><span class="comment">//使用async前缀声明一个函数</span></span><br><span class="line">  axios.defaults.baseURL = <span class="string">'http://localhost:3000/'</span></span><br><span class="line">  <span class="keyword">async</span> <span class="function"><span class="keyword">function</span> <span class="title">queryData</span>(<span class="params">id</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">const</span> res1 = <span class="keyword">await</span> axios.get(<span class="string">'async1'</span>)</span><br><span class="line">    <span class="keyword">const</span> res2 = <span class="keyword">await</span> axios.get(<span class="string">'async2'</span>, &#123;</span><br><span class="line">      params: &#123; <span class="attr">info</span>: res.data &#125;</span><br><span class="line">    &#125;)</span><br><span class="line">    <span class="keyword">return</span> [res1, res2]</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  queryData().then(<span class="function"><span class="params">ret</span> =&gt;</span> &#123;</span><br><span class="line">    <span class="built_in">console</span>.log(ret,)</span><br><span class="line">  &#125;)</span><br></pre></td></tr></table></figure>
 
 <h2 id="基于接口的案例"><a href="#基于接口的案例" class="headerlink" title="基于接口的案例"></a>基于接口的案例</h2>]]></content>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2020/07/11/hello-world/</url>
-    <content><![CDATA[<p>测试文档</p>
-<h2 id="创建"><a href="#创建" class="headerlink" title="创建"></a>创建</h2><h3 id="子标题"><a href="#子标题" class="headerlink" title="子标题"></a>子标题</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">var str = <span class="string">"hello world"</span></span><br></pre></td></tr></table></figure>
-
-<a id="more"></a>
-
-<p>123123123</p>
-<p>123213</p>
-<p>123123</p>
-<p><img src="/img/1604136879647.png" alt="1604136879647"></p>
-]]></content>
   </entry>
 </search>
