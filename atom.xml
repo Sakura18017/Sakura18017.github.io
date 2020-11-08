@@ -6,7 +6,7 @@
   <link href="https://sakura18017.github.io/atom.xml" rel="self"/>
   
   <link href="https://sakura18017.github.io/"/>
-  <updated>2020-11-08T03:01:31.677Z</updated>
+  <updated>2020-11-08T03:12:47.937Z</updated>
   <id>https://sakura18017.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Vue基础</title>
+    <link href="https://sakura18017.github.io/2020/11/08/Vue%E5%9F%BA%E7%A1%80/"/>
+    <id>https://sakura18017.github.io/2020/11/08/Vue%E5%9F%BA%E7%A1%80/</id>
+    <published>2020-11-08T03:05:42.000Z</published>
+    <updated>2020-11-08T03:12:47.937Z</updated>
+    
+    <content type="html"><![CDATA[<p>###完整版：</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- 开发环境版本，包含了有帮助的命令行警告 --&gt;</span><br><span class="line">&lt;script src=<span class="string">"https://cdn.jsdelivr.net/npm/vue/dist/vue.js"</span>&gt;&lt;<span class="regexp">/script&gt;</span></span><br></pre></td></tr></table></figure><p>###压缩版（比如jQuery.min）：</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- 生产环境版本，优化了尺寸和速度 --&gt;</span><br><span class="line">&lt;script src=<span class="string">"https://cdn.jsdelivr.net/npm/vue"</span>&gt;&lt;<span class="regexp">/script&gt;</span></span><br></pre></td></tr></table></figure><p>###使用方法：</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"app"</span>&gt;</span></span><br><span class="line">  &#123;&#123; message &#125;&#125;</span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure><p>var app = new Vue({  el: ‘#app’,  data: {    message: ‘Hello Vue!’  }})</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> app = <span class="keyword">new</span> Vue(&#123;</span><br><span class="line">  el: <span class="string">'#app'</span>,</span><br><span class="line">  data: &#123;</span><br><span class="line">    message: <span class="string">'Hello Vue!'</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure><p>###什么是指令</p><p>指令的本质就是自定义属性</p><p>指令的格式：以v开始</p><p>#####解决闪动问题：</p><p>添加自定义属性：v-cloak</p><p>使用属性选择器设置css样式使其隐藏</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;###完整版：&lt;/p&gt;
+&lt;figure class=&quot;highlight js&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Git基础</title>
