@@ -6,7 +6,7 @@
   <link href="https://sakura18017.github.io/atom.xml" rel="self"/>
   
   <link href="https://sakura18017.github.io/"/>
-  <updated>2020-11-08T02:31:40.259Z</updated>
+  <updated>2020-11-08T03:01:31.677Z</updated>
   <id>https://sakura18017.github.io/</id>
   
   <author>
@@ -21,13 +21,31 @@
     <link href="https://sakura18017.github.io/2020/11/05/My-New-Post/"/>
     <id>https://sakura18017.github.io/2020/11/05/My-New-Post/</id>
     <published>2020-11-05T11:00:48.000Z</published>
-    <updated>2020-11-08T02:31:40.259Z</updated>
+    <updated>2020-11-08T03:01:31.677Z</updated>
     
     <content type="html"><![CDATA[<h1 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h1><p><strong>版本控制软件</strong>是一个用来记录文件变化，以便将来查阅特定</p><p>版本修订情况的系统，因此有时也叫做“<strong>版本控制系统</strong>”</p><a id="more"></a><h1 id="通俗的理解"><a href="#通俗的理解" class="headerlink" title="通俗的理解"></a>通俗的理解</h1><p>把<strong>手工管理</strong>文件版本的方式，改为由<strong>软件管理</strong>文件的版本；</p><p>这个<strong>负责管理文件版本的软件</strong>，叫做“版本控制软件”</p><h1 id="使用版本控制软件的好处"><a href="#使用版本控制软件的好处" class="headerlink" title="使用版本控制软件的好处"></a>使用版本控制软件的好处</h1><ul><li><strong>操作简便：</strong>只需<strong>识记几组简单的终端命令</strong>，即可快速上手常见的版本控制软件</li><li><strong>易于对比：</strong>基于版本控制软件提供的功能，能够方便地比较文件的变化细节，从而查找出导致问题的原因</li><li><strong>易于回溯：</strong>可以将选定的文件回溯到之前的状态，甚至将整个项目都回退到过去某个时间点的状态</li><li><strong>不易丢失：</strong>在版本控制软件中，被用户误删除的文件，可以轻松的恢复回来</li><li><strong>协作方便：</strong>基于版本控制软件提供的分支功能，可以轻松实现多人协作开发时的代码合并操作</li></ul>]]></content>
     
     
     <summary type="html">&lt;h1 id=&quot;概念&quot;&gt;&lt;a href=&quot;#概念&quot; class=&quot;headerlink&quot; title=&quot;概念&quot;&gt;&lt;/a&gt;概念&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;版本控制软件&lt;/strong&gt;是一个用来记录文件变化，以便将来查阅特定&lt;/p&gt;
 &lt;p&gt;版本修订情况的系统，因此有时也叫做“&lt;strong&gt;版本控制系统&lt;/strong&gt;”&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://sakura18017.github.io/2020/07/11/hello-world/"/>
+    <id>https://sakura18017.github.io/2020/07/11/hello-world/</id>
+    <published>2020-07-11T05:24:08.373Z</published>
+    <updated>2020-11-08T03:02:06.691Z</updated>
+    
+    <content type="html"><![CDATA[<p>测试文档</p><h2 id="创建"><a href="#创建" class="headerlink" title="创建"></a>创建</h2><h3 id="子标题"><a href="#子标题" class="headerlink" title="子标题"></a>子标题</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">var str = <span class="string">"hello world"</span></span><br></pre></td></tr></table></figure><a id="more"></a><p>123123123</p><p>123213</p><p>123123</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;测试文档&lt;/p&gt;
+&lt;h2 id=&quot;创建&quot;&gt;&lt;a href=&quot;#创建&quot; class=&quot;headerlink&quot; title=&quot;创建&quot;&gt;&lt;/a&gt;创建&lt;/h2&gt;&lt;h3 id=&quot;子标题&quot;&gt;&lt;a href=&quot;#子标题&quot; class=&quot;headerlink&quot; title=&quot;子标题&quot;&gt;&lt;/a&gt;子标题&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;var str = &lt;span class=&quot;string&quot;&gt;&quot;hello world&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
     
     
     
