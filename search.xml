@@ -1,6 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Vue面试题整理</title>
+    <url>/2020/11/15/Vue%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86/</url>
+    <content><![CDATA[<a id="more"></a>
+
+<h3 id="MVVM理解"><a href="#MVVM理解" class="headerlink" title="MVVM理解"></a>MVVM理解</h3><p>MVVM是Model-View-ViewModel的缩写</p>
+<p>Model代表数据模型</p>
+<p>View代表ui组件</p>
+<p>viewModel监听模型数据的改变和控制视图行为,简单理解就是同步view和model的对象，连接model和view</p>
+<p>在MVVM框架下，model和view没有直接联系，而是通过viewModel进行交互的，model和viewModel之间的交互是双向的，因此view数据的变化会同步到model中，而model数据的变化也会立即反应到view上</p>
+<p>viewModel通过双向数据绑定把view层和model层连接了起来，而view和model之间的同步功能是自动的，无需人为干涉，</p>
+<p>因此开发者只需要关注业务逻辑，不需要手动操作DOM，不需要关注数据状态的同步问题，复杂的数据维护完全由MVVM来统一管理</p>
+<h3 id="Vue的生命周期"><a href="#Vue的生命周期" class="headerlink" title="Vue的生命周期"></a>Vue的生命周期</h3><p>总共分为八部分</p>
+<p>beforeCreat        创建前</p>
+<p>created            创建后</p>
+<p>beforeMount    载入前</p>
+<p>mounted        载入后</p>
+<p>beforeUptate    更新前</p>
+<p>uptated            更新后</p>
+<p>beforeDestroy    销毁前</p>
+<p>destroyed        销毁后</p>
+<h4 id="Vue生命周期是什么"><a href="#Vue生命周期是什么" class="headerlink" title="Vue生命周期是什么"></a>Vue生命周期是什么</h4><p>vue从创建到销毁的过程，就是生命周期。从开始创建，初始化数据、编译模板、挂载DOM→开始渲染、更新→渲染、销毁等一系列过程，就是他的生命周期</p>
+<h4 id="Vue生命周期的作用是什么"><a href="#Vue生命周期的作用是什么" class="headerlink" title="Vue生命周期的作用是什么"></a>Vue生命周期的作用是什么</h4><p>他的生命周期中有多个钩子，让我们在控制整个Vue实例的过程中更容易形成好的逻辑</p>
+<h4 id="页面第一次加载时会触发哪几个钩子"><a href="#页面第一次加载时会触发哪几个钩子" class="headerlink" title="页面第一次加载时会触发哪几个钩子"></a>页面第一次加载时会触发哪几个钩子</h4><p>会触发beforeCreate、created、beforeMount、mounted</p>
+<h4 id="DOM渲染在哪个周期中就已经完成"><a href="#DOM渲染在哪个周期中就已经完成" class="headerlink" title="DOM渲染在哪个周期中就已经完成"></a>DOM渲染在哪个周期中就已经完成</h4><p>DOM渲染在mounted中就已经完成了</p>
+<p>###Vue实现数据双向绑定原理</p>
+<p>Object.defineProperty()</p>
+<p>vue实现数据双向绑定主要是：采用数据劫持结合发布者-订阅者模式，通过Object.defineProperty()来劫持各个属性的setter、getter，在数据变动时发布消息给订阅者，触发相应劫持回调。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>web前端面试题整理</title>
+    <url>/2020/11/15/web%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>Git基础</title>
+    <url>/2020/11/05/My-New-Post/</url>
+    <content><![CDATA[<h1 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h1><p><strong>版本控制软件</strong>是一个用来记录文件变化，以便将来查阅特定</p>
+<p>版本修订情况的系统，因此有时也叫做“<strong>版本控制系统</strong>”</p>
+<a id="more"></a>
+
+<h1 id="通俗的理解"><a href="#通俗的理解" class="headerlink" title="通俗的理解"></a>通俗的理解</h1><p>把<strong>手工管理</strong>文件版本的方式，改为由<strong>软件管理</strong>文件的版本；</p>
+<p>这个<strong>负责管理文件版本的软件</strong>，叫做“版本控制软件”</p>
+<h1 id="使用版本控制软件的好处"><a href="#使用版本控制软件的好处" class="headerlink" title="使用版本控制软件的好处"></a>使用版本控制软件的好处</h1><ul>
+<li><strong>操作简便：</strong>只需<strong>识记几组简单的终端命令</strong>，即可快速上手常见的版本控制软件</li>
+<li><strong>易于对比：</strong>基于版本控制软件提供的功能，能够方便地比较文件的变化细节，从而查找出导致问题的原因</li>
+<li><strong>易于回溯：</strong>可以将选定的文件回溯到之前的状态，甚至将整个项目都回退到过去某个时间点的状态</li>
+<li><strong>不易丢失：</strong>在版本控制软件中，被用户误删除的文件，可以轻松的恢复回来</li>
+<li><strong>协作方便：</strong>基于版本控制软件提供的分支功能，可以轻松实现多人协作开发时的代码合并操作</li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
     <title>如何使用hexo创建一个博客</title>
     <url>/2020/11/08/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hexo%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</url>
     <content><![CDATA[<h1 id="hexo"><a href="#hexo" class="headerlink" title="hexo"></a>hexo</h1><h2 id="一、安装"><a href="#一、安装" class="headerlink" title="一、安装"></a>一、安装</h2><h3 id="环境依赖"><a href="#环境依赖" class="headerlink" title="环境依赖"></a>环境依赖</h3><p><strong>node.js</strong>，<strong>hexo</strong>，<strong>gitbash</strong></p>
@@ -157,7 +210,27 @@
 <h2 id="文章-or-样式不生效？"><a href="#文章-or-样式不生效？" class="headerlink" title="文章 or 样式不生效？"></a>文章 or 样式不生效？</h2><p>在博客根目录里打开控制台依次输入三行指令</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
 
-<h2 id="二、创建文章"><a href="#二、创建文章" class="headerlink" title="二、创建文章"></a>二、创建文章</h2>]]></content>
+<h2 id="二、创建文章"><a href="#二、创建文章" class="headerlink" title="二、创建文章"></a>二、创建文章</h2><p>在控制台中输入hexo new “文章名字”</p>
+<p>即可在根目录下/source/_posts下创建一个与输入名称相同的md文件，双击打开即可在里面修改</p>
+<p>修改完毕</p>
+<p>hexo clean<br>hexo g<br>hexo d</p>
+<p>即可上传到git仓库同步，仓库页面会有一定时间的延迟，稍加等待即可</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2020/07/11/hello-world/</url>
+    <content><![CDATA[<p>测试文档</p>
+<h2 id="创建"><a href="#创建" class="headerlink" title="创建"></a>创建</h2><h3 id="子标题"><a href="#子标题" class="headerlink" title="子标题"></a>子标题</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">var str = <span class="string">"hello world"</span></span><br></pre></td></tr></table></figure>
+
+<a id="more"></a>
+
+<p>123123123</p>
+<p>123213</p>
+<p>123123</p>
+<p>asdasdasd</p>
+<p><img src="/img/1604136879647.png" alt="1604136879647"></p>
+]]></content>
   </entry>
   <entry>
     <title>Vue基础</title>
@@ -275,38 +348,5 @@
 <h2 id="async-await"><a href="#async-await" class="headerlink" title="async/await"></a>async/await</h2><h3 id="async-await-基本用法"><a href="#async-await-基本用法" class="headerlink" title="async/await 基本用法"></a>async/await 基本用法</h3><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="number">1.</span>简介(异步/等待)</span><br><span class="line"><span class="keyword">async</span>/awat是ES7引入的新语法,可以更加方便的进行异步操作</span><br><span class="line"><span class="keyword">async</span>关键字用于函数上( <span class="keyword">async</span>函数的返回值是 <span class="built_in">Promise</span>实例对象)</span><br><span class="line"><span class="keyword">await</span>关键字用于 <span class="keyword">async</span>函数当中( <span class="keyword">await</span>可以得到异步的结果)</span><br><span class="line"></span><br><span class="line"><span class="number">2.</span>用法</span><br><span class="line"><span class="comment">//使用async前缀声明一个函数</span></span><br><span class="line">  axios.defaults.baseURL = <span class="string">'http://localhost:3000/'</span></span><br><span class="line">  <span class="keyword">async</span> <span class="function"><span class="keyword">function</span> <span class="title">queryData</span>(<span class="params">id</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">const</span> res1 = <span class="keyword">await</span> axios.get(<span class="string">'async1'</span>)</span><br><span class="line">    <span class="keyword">const</span> res2 = <span class="keyword">await</span> axios.get(<span class="string">'async2'</span>, &#123;</span><br><span class="line">      params: &#123; <span class="attr">info</span>: res.data &#125;</span><br><span class="line">    &#125;)</span><br><span class="line">    <span class="keyword">return</span> [res1, res2]</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  queryData().then(<span class="function"><span class="params">ret</span> =&gt;</span> &#123;</span><br><span class="line">    <span class="built_in">console</span>.log(ret,)</span><br><span class="line">  &#125;)</span><br></pre></td></tr></table></figure>
 
 <h2 id="基于接口的案例"><a href="#基于接口的案例" class="headerlink" title="基于接口的案例"></a>基于接口的案例</h2>]]></content>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2020/07/11/hello-world/</url>
-    <content><![CDATA[<p>测试文档</p>
-<h2 id="创建"><a href="#创建" class="headerlink" title="创建"></a>创建</h2><h3 id="子标题"><a href="#子标题" class="headerlink" title="子标题"></a>子标题</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">var str = <span class="string">"hello world"</span></span><br></pre></td></tr></table></figure>
-
-<a id="more"></a>
-
-<p>123123123</p>
-<p>123213</p>
-<p>123123</p>
-<p>asdasdasd</p>
-<p><img src="/img/1604136879647.png" alt="1604136879647"></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>Git基础</title>
-    <url>/2020/11/05/My-New-Post/</url>
-    <content><![CDATA[<h1 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h1><p><strong>版本控制软件</strong>是一个用来记录文件变化，以便将来查阅特定</p>
-<p>版本修订情况的系统，因此有时也叫做“<strong>版本控制系统</strong>”</p>
-<a id="more"></a>
-
-<h1 id="通俗的理解"><a href="#通俗的理解" class="headerlink" title="通俗的理解"></a>通俗的理解</h1><p>把<strong>手工管理</strong>文件版本的方式，改为由<strong>软件管理</strong>文件的版本；</p>
-<p>这个<strong>负责管理文件版本的软件</strong>，叫做“版本控制软件”</p>
-<h1 id="使用版本控制软件的好处"><a href="#使用版本控制软件的好处" class="headerlink" title="使用版本控制软件的好处"></a>使用版本控制软件的好处</h1><ul>
-<li><strong>操作简便：</strong>只需<strong>识记几组简单的终端命令</strong>，即可快速上手常见的版本控制软件</li>
-<li><strong>易于对比：</strong>基于版本控制软件提供的功能，能够方便地比较文件的变化细节，从而查找出导致问题的原因</li>
-<li><strong>易于回溯：</strong>可以将选定的文件回溯到之前的状态，甚至将整个项目都回退到过去某个时间点的状态</li>
-<li><strong>不易丢失：</strong>在版本控制软件中，被用户误删除的文件，可以轻松的恢复回来</li>
-<li><strong>协作方便：</strong>基于版本控制软件提供的分支功能，可以轻松实现多人协作开发时的代码合并操作</li>
-</ul>
-]]></content>
   </entry>
 </search>

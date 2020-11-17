@@ -20,18 +20,18 @@
     var CONFIG = {"hostname":"sakura18017.github.io","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="学习分享">
-<meta property="og:type" content="website">
-<meta property="og:title" content="tags">
-<meta property="og:url" content="https://sakura18017.github.io/tags/index.html">
+  <meta name="description" content="MVVM理解MVVM是Model-View-ViewModel的缩写 Model代表数据模型 View代表ui组件 viewModel监听模型数据的改变和控制视图行为,简单理解就是同步view和model的对象，连接model和view 在MVVM框架下，model和view没有直接联系，而是通过viewModel进行交互的，model和viewModel之间的交互是双向的，因此view数据的">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Vue面试题整理">
+<meta property="og:url" content="https://sakura18017.github.io/2020/11/15/Vue%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86/index.html">
 <meta property="og:site_name" content="Along-Blog">
-<meta property="og:description" content="学习分享">
-<meta property="article:published_time" content="2020-11-07T13:17:34.000Z">
-<meta property="article:modified_time" content="2020-11-07T13:33:04.384Z">
+<meta property="og:description" content="MVVM理解MVVM是Model-View-ViewModel的缩写 Model代表数据模型 View代表ui组件 viewModel监听模型数据的改变和控制视图行为,简单理解就是同步view和model的对象，连接model和view 在MVVM框架下，model和view没有直接联系，而是通过viewModel进行交互的，model和viewModel之间的交互是双向的，因此view数据的">
+<meta property="article:published_time" content="2020-11-15T11:22:14.000Z">
+<meta property="article:modified_time" content="2020-11-15T13:59:00.287Z">
 <meta property="article:author" content="Along">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://sakura18017.github.io/tags/">
+<link rel="canonical" href="https://sakura18017.github.io/2020/11/15/Vue%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86/">
 
 
 <script id="page-configurations">
@@ -39,13 +39,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'zh-Hans'
   };
 </script>
 
-  <title>tags | Along-Blog
-</title>
+  <title>Vue面试题整理 | Along-Blog</title>
   
 
 
@@ -177,43 +176,107 @@
       <div class="main-inner">
         <div class="content-wrap">
           
-  
-  
 
-          <div class="content page posts-expand">
+          <div class="content post posts-expand">
             
 
     
-    
-    
-    <div class="post-block" lang="zh-Hans">
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-Hans">
+    <link itemprop="mainEntityOfPage" href="https://sakura18017.github.io/2020/11/15/Vue%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpeg">
+      <meta itemprop="name" content="Along">
+      <meta itemprop="description" content="学习分享">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Along-Blog">
+    </span>
       <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Vue面试题整理
+        </h1>
 
-<h1 class="post-title" itemprop="name headline">tags
-</h1>
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
 
-<div class="post-meta">
+              <time title="创建时间：2020-11-15 19:22:14 / 修改时间：21:59:00" itemprop="dateCreated datePublished" datetime="2020-11-15T19:22:14+08:00">2020-11-15</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <a id="more"></a>
+
+<h3 id="MVVM理解"><a href="#MVVM理解" class="headerlink" title="MVVM理解"></a>MVVM理解</h3><p>MVVM是Model-View-ViewModel的缩写</p>
+<p>Model代表数据模型</p>
+<p>View代表ui组件</p>
+<p>viewModel监听模型数据的改变和控制视图行为,简单理解就是同步view和model的对象，连接model和view</p>
+<p>在MVVM框架下，model和view没有直接联系，而是通过viewModel进行交互的，model和viewModel之间的交互是双向的，因此view数据的变化会同步到model中，而model数据的变化也会立即反应到view上</p>
+<p>viewModel通过双向数据绑定把view层和model层连接了起来，而view和model之间的同步功能是自动的，无需人为干涉，</p>
+<p>因此开发者只需要关注业务逻辑，不需要手动操作DOM，不需要关注数据状态的同步问题，复杂的数据维护完全由MVVM来统一管理</p>
+<h3 id="Vue的生命周期"><a href="#Vue的生命周期" class="headerlink" title="Vue的生命周期"></a>Vue的生命周期</h3><p>总共分为八部分</p>
+<p>beforeCreat        创建前</p>
+<p>created            创建后</p>
+<p>beforeMount    载入前</p>
+<p>mounted        载入后</p>
+<p>beforeUptate    更新前</p>
+<p>uptated            更新后</p>
+<p>beforeDestroy    销毁前</p>
+<p>destroyed        销毁后</p>
+<h4 id="Vue生命周期是什么"><a href="#Vue生命周期是什么" class="headerlink" title="Vue生命周期是什么"></a>Vue生命周期是什么</h4><p>vue从创建到销毁的过程，就是生命周期。从开始创建，初始化数据、编译模板、挂载DOM→开始渲染、更新→渲染、销毁等一系列过程，就是他的生命周期</p>
+<h4 id="Vue生命周期的作用是什么"><a href="#Vue生命周期的作用是什么" class="headerlink" title="Vue生命周期的作用是什么"></a>Vue生命周期的作用是什么</h4><p>他的生命周期中有多个钩子，让我们在控制整个Vue实例的过程中更容易形成好的逻辑</p>
+<h4 id="页面第一次加载时会触发哪几个钩子"><a href="#页面第一次加载时会触发哪几个钩子" class="headerlink" title="页面第一次加载时会触发哪几个钩子"></a>页面第一次加载时会触发哪几个钩子</h4><p>会触发beforeCreate、created、beforeMount、mounted</p>
+<h4 id="DOM渲染在哪个周期中就已经完成"><a href="#DOM渲染在哪个周期中就已经完成" class="headerlink" title="DOM渲染在哪个周期中就已经完成"></a>DOM渲染在哪个周期中就已经完成</h4><p>DOM渲染在mounted中就已经完成了</p>
+<p>###Vue实现数据双向绑定原理</p>
+<p>Object.defineProperty()</p>
+<p>vue实现数据双向绑定主要是：采用数据劫持结合发布者-订阅者模式，通过Object.defineProperty()来劫持各个属性的setter、getter，在数据变动时发布消息给订阅者，触发相应劫持回调。</p>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2020/11/08/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hexo%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/" rel="prev" title="如何使用hexo创建一个博客">
+      <i class="fa fa-chevron-left"></i> 如何使用hexo创建一个博客
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2020/11/15/web%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86/" rel="next" title="web前端面试题整理">
+      web前端面试题整理 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
   
 
-</div>
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
-          
-      </div>
-      
-      
-      
-    </div>
-    
-
-    
-    
-    
 
 
           </div>
@@ -264,6 +327,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#MVVM理解"><span class="nav-number">1.</span> <span class="nav-text">MVVM理解</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Vue的生命周期"><span class="nav-number">2.</span> <span class="nav-text">Vue的生命周期</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Vue生命周期是什么"><span class="nav-number">2.1.</span> <span class="nav-text">Vue生命周期是什么</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Vue生命周期的作用是什么"><span class="nav-number">2.2.</span> <span class="nav-text">Vue生命周期的作用是什么</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#页面第一次加载时会触发哪几个钩子"><span class="nav-number">2.3.</span> <span class="nav-text">页面第一次加载时会触发哪几个钩子</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#DOM渲染在哪个周期中就已经完成"><span class="nav-number">2.4.</span> <span class="nav-text">DOM渲染在哪个周期中就已经完成</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
