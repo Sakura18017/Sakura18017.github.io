@@ -38,18 +38,12 @@
     <link href="https://sakura18017.github.io/2020/11/15/web%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86/"/>
     <id>https://sakura18017.github.io/2020/11/15/web%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86/</id>
     <published>2020-11-15T11:57:38.000Z</published>
-    <updated>2020-11-17T12:22:39.352Z</updated>
+    <updated>2020-11-18T13:34:11.746Z</updated>
     
-    <content type="html"><![CDATA[<a id="more"></a><p>123123</p>]]></content>
+    <content type="html"><![CDATA[<p>123123</p><a id="more"></a>]]></content>
     
     
-      
-      
-    <summary type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-
-&lt;p&gt;123123&lt;/p&gt;
-</summary>
-      
+    <summary type="html">&lt;p&gt;123123&lt;/p&gt;</summary>
     
     
     
@@ -61,17 +55,12 @@
     <link href="https://sakura18017.github.io/2020/11/15/Vue%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86/"/>
     <id>https://sakura18017.github.io/2020/11/15/Vue%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86/</id>
     <published>2020-11-15T11:22:14.000Z</published>
-    <updated>2020-11-17T12:22:43.298Z</updated>
+    <updated>2020-11-18T13:34:04.791Z</updated>
     
-    <content type="html"><![CDATA[<a id="more"></a><h3 id="MVVM-理解"><a href="#MVVM-理解" class="headerlink" title="MVVM 理解"></a>MVVM 理解</h3><p>MVVM 是 Model-View-ViewModel 的缩写</p><p>Model 代表数据模型</p><p>View 代表 ui 组件</p><p>viewModel 监听模型数据的改变和控制视图行为,简单理解就是同步 view 和 model 的对象，连接 model 和 view</p><p>在 MVVM 框架下，model 和 view 没有直接联系，而是通过 viewModel 进行交互的，model 和 viewModel 之间的交互是双向的，因此 view 数据的变化会同步到 model 中，而 model 数据的变化也会立即反应到 view 上</p><p>viewModel 通过双向数据绑定把 view 层和 model 层连接了起来，而 view 和 model 之间的同步功能是自动的，无需人为干涉，</p><p>因此开发者只需要关注业务逻辑，不需要手动操作 DOM，不需要关注数据状态的同步问题，复杂的数据维护完全由 MVVM 来统一管理</p><h3 id="Vue-的生命周期"><a href="#Vue-的生命周期" class="headerlink" title="Vue 的生命周期"></a>Vue 的生命周期</h3><p>总共分为八部分</p><p>beforeCreat 创建前</p><p>created 创建后</p><p>beforeMount 载入前</p><p>mounted 载入后</p><p>beforeUptate 更新前</p><p>uptated 更新后</p><p>beforeDestroy 销毁前</p><p>destroyed 销毁后</p><h4 id="Vue-生命周期是什么"><a href="#Vue-生命周期是什么" class="headerlink" title="Vue 生命周期是什么"></a>Vue 生命周期是什么</h4><p>vue 从创建到销毁的过程，就是生命周期。从开始创建，初始化数据、编译模板、挂载 DOM→ 开始渲染、更新 → 渲染、销毁等一系列过程，就是他的生命周期</p><h4 id="Vue-生命周期的作用是什么"><a href="#Vue-生命周期的作用是什么" class="headerlink" title="Vue 生命周期的作用是什么"></a>Vue 生命周期的作用是什么</h4><p>他的生命周期中有多个钩子，让我们在控制整个 Vue 实例的过程中更容易形成好的逻辑</p><h4 id="页面第一次加载时会触发哪几个钩子"><a href="#页面第一次加载时会触发哪几个钩子" class="headerlink" title="页面第一次加载时会触发哪几个钩子"></a>页面第一次加载时会触发哪几个钩子</h4><p>会触发 beforeCreate、created、beforeMount、mounted</p><h4 id="DOM-渲染在哪个周期中就已经完成"><a href="#DOM-渲染在哪个周期中就已经完成" class="headerlink" title="DOM 渲染在哪个周期中就已经完成"></a>DOM 渲染在哪个周期中就已经完成</h4><p>DOM 渲染在 mounted 中就已经完成了</p><p>###Vue 实现数据双向绑定原理</p><p>Object.defineProperty()</p><p>vue 实现数据双向绑定主要是：采用数据劫持结合发布者-订阅者模式，通过 Object.defineProperty()来劫持各个属性的 setter、getter，在数据变动时发布消息给订阅者，触发相应劫持回调。</p>]]></content>
+    <content type="html"><![CDATA[<h3 id="MVVM-理解"><a href="#MVVM-理解" class="headerlink" title="MVVM 理解"></a>MVVM 理解</h3><a id="more"></a><p>MVVM 是 Model-View-ViewModel 的缩写</p><p>Model 代表数据模型</p><p>View 代表 ui 组件</p><p>viewModel 监听模型数据的改变和控制视图行为,简单理解就是同步 view 和 model 的对象，连接 model 和 view</p><p>在 MVVM 框架下，model 和 view 没有直接联系，而是通过 viewModel 进行交互的，model 和 viewModel 之间的交互是双向的，因此 view 数据的变化会同步到 model 中，而 model 数据的变化也会立即反应到 view 上</p><p>viewModel 通过双向数据绑定把 view 层和 model 层连接了起来，而 view 和 model 之间的同步功能是自动的，无需人为干涉，</p><p>因此开发者只需要关注业务逻辑，不需要手动操作 DOM，不需要关注数据状态的同步问题，复杂的数据维护完全由 MVVM 来统一管理</p><h3 id="Vue-的生命周期"><a href="#Vue-的生命周期" class="headerlink" title="Vue 的生命周期"></a>Vue 的生命周期</h3><p>总共分为八部分</p><p>beforeCreat 创建前</p><p>created 创建后</p><p>beforeMount 载入前</p><p>mounted 载入后</p><p>beforeUptate 更新前</p><p>uptated 更新后</p><p>beforeDestroy 销毁前</p><p>destroyed 销毁后</p><h4 id="Vue-生命周期是什么"><a href="#Vue-生命周期是什么" class="headerlink" title="Vue 生命周期是什么"></a>Vue 生命周期是什么</h4><p>vue 从创建到销毁的过程，就是生命周期。从开始创建，初始化数据、编译模板、挂载 DOM→ 开始渲染、更新 → 渲染、销毁等一系列过程，就是他的生命周期</p><h4 id="Vue-生命周期的作用是什么"><a href="#Vue-生命周期的作用是什么" class="headerlink" title="Vue 生命周期的作用是什么"></a>Vue 生命周期的作用是什么</h4><p>他的生命周期中有多个钩子，让我们在控制整个 Vue 实例的过程中更容易形成好的逻辑</p><h4 id="页面第一次加载时会触发哪几个钩子"><a href="#页面第一次加载时会触发哪几个钩子" class="headerlink" title="页面第一次加载时会触发哪几个钩子"></a>页面第一次加载时会触发哪几个钩子</h4><p>会触发 beforeCreate、created、beforeMount、mounted</p><h4 id="DOM-渲染在哪个周期中就已经完成"><a href="#DOM-渲染在哪个周期中就已经完成" class="headerlink" title="DOM 渲染在哪个周期中就已经完成"></a>DOM 渲染在哪个周期中就已经完成</h4><p>DOM 渲染在 mounted 中就已经完成了</p><p>###Vue 实现数据双向绑定原理</p><p>Object.defineProperty()</p><p>vue 实现数据双向绑定主要是：采用数据劫持结合发布者-订阅者模式，通过 Object.defineProperty()来劫持各个属性的 setter、getter，在数据变动时发布消息给订阅者，触发相应劫持回调。</p>]]></content>
     
     
-      
-      
-    <summary type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-
-&lt;h3 id=&quot;MVVM-理解&quot;&gt;&lt;a href=&quot;#MVVM-理解&quot; class=&quot;headerlink&quot; title=&quot;MVVM 理解&quot;&gt;&lt;/a&gt;MVVM 理解&lt;/h3&gt;&lt;p&gt;MVVM 是 Model-View-ViewModel 的缩写</summary>
-      
+    <summary type="html">&lt;h3 id=&quot;MVVM-理解&quot;&gt;&lt;a href=&quot;#MVVM-理解&quot; class=&quot;headerlink&quot; title=&quot;MVVM 理解&quot;&gt;&lt;/a&gt;MVVM 理解&lt;/h3&gt;</summary>
     
     
     
