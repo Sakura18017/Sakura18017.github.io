@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Git基础</title>
+    <url>/2020/11/05/My-New-Post/</url>
+    <content><![CDATA[<h1 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h1><p><strong>版本控制软件</strong>是一个用来记录文件变化，以便将来查阅特定</p>
+<p>版本修订情况的系统，因此有时也叫做“<strong>版本控制系统</strong>”</p>
+<a id="more"></a>
+
+<h1 id="通俗的理解"><a href="#通俗的理解" class="headerlink" title="通俗的理解"></a>通俗的理解</h1><p>把<strong>手工管理</strong>文件版本的方式，改为由<strong>软件管理</strong>文件的版本；</p>
+<p>这个<strong>负责管理文件版本的软件</strong>，叫做“版本控制软件”</p>
+<h1 id="使用版本控制软件的好处"><a href="#使用版本控制软件的好处" class="headerlink" title="使用版本控制软件的好处"></a>使用版本控制软件的好处</h1><ul>
+<li><strong>操作简便：</strong>只需<strong>识记几组简单的终端命令</strong>，即可快速上手常见的版本控制软件</li>
+<li><strong>易于对比：</strong>基于版本控制软件提供的功能，能够方便地比较文件的变化细节，从而查找出导致问题的原因</li>
+<li><strong>易于回溯：</strong>可以将选定的文件回溯到之前的状态，甚至将整个项目都回退到过去某个时间点的状态</li>
+<li><strong>不易丢失：</strong>在版本控制软件中，被用户误删除的文件，可以轻松的恢复回来</li>
+<li><strong>协作方便：</strong>基于版本控制软件提供的分支功能，可以轻松实现多人协作开发时的代码合并操作</li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
     <title>Vue基础</title>
     <url>/2020/11/08/Vue%E5%9F%BA%E7%A1%80/</url>
     <content><![CDATA[<h1 id="day01"><a href="#day01" class="headerlink" title="day01"></a>day01</h1><h2 id="vue-基本语法"><a href="#vue-基本语法" class="headerlink" title="vue 基本语法"></a>vue 基本语法</h2><h3 id="vue-概述"><a href="#vue-概述" class="headerlink" title="vue 概述"></a>vue 概述</h3><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">渐进式JavaScript框架</span><br><span class="line">声明式渲染=&gt;组件系统=&gt;客户端路由=&gt;集中式状态管理=&gt;项目构建</span><br><span class="line"></span><br><span class="line">https:<span class="comment">//cn.vuejs.org</span></span><br><span class="line"></span><br><span class="line">易用:熟悉html,css,js,可以快速上手</span><br><span class="line">灵活:可以在一个库和完整框架之间伸缩自如</span><br><span class="line">高效:<span class="number">20</span>KB运行大小,超快虚拟DOM</span><br></pre></td></tr></table></figure>
@@ -118,29 +136,6 @@
 <h2 id="基于接口的案例"><a href="#基于接口的案例" class="headerlink" title="基于接口的案例"></a>基于接口的案例</h2>]]></content>
   </entry>
   <entry>
-    <title>test</title>
-    <url>/2020/11/24/test/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>Git基础</title>
-    <url>/2020/11/05/My-New-Post/</url>
-    <content><![CDATA[<h1 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h1><p><strong>版本控制软件</strong>是一个用来记录文件变化，以便将来查阅特定</p>
-<p>版本修订情况的系统，因此有时也叫做“<strong>版本控制系统</strong>”</p>
-<a id="more"></a>
-
-<h1 id="通俗的理解"><a href="#通俗的理解" class="headerlink" title="通俗的理解"></a>通俗的理解</h1><p>把<strong>手工管理</strong>文件版本的方式，改为由<strong>软件管理</strong>文件的版本；</p>
-<p>这个<strong>负责管理文件版本的软件</strong>，叫做“版本控制软件”</p>
-<h1 id="使用版本控制软件的好处"><a href="#使用版本控制软件的好处" class="headerlink" title="使用版本控制软件的好处"></a>使用版本控制软件的好处</h1><ul>
-<li><strong>操作简便：</strong>只需<strong>识记几组简单的终端命令</strong>，即可快速上手常见的版本控制软件</li>
-<li><strong>易于对比：</strong>基于版本控制软件提供的功能，能够方便地比较文件的变化细节，从而查找出导致问题的原因</li>
-<li><strong>易于回溯：</strong>可以将选定的文件回溯到之前的状态，甚至将整个项目都回退到过去某个时间点的状态</li>
-<li><strong>不易丢失：</strong>在版本控制软件中，被用户误删除的文件，可以轻松的恢复回来</li>
-<li><strong>协作方便：</strong>基于版本控制软件提供的分支功能，可以轻松实现多人协作开发时的代码合并操作</li>
-</ul>
-]]></content>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/2020/07/11/hello-world/</url>
     <content><![CDATA[<p>测试文档</p>
@@ -182,6 +177,94 @@
 <p>Object.defineProperty()</p>
 <p>vue 实现数据双向绑定主要是：采用数据劫持结合发布者-订阅者模式，通过 Object.defineProperty()来劫持各个属性的 setter、getter，在数据变动时发布消息给订阅者，触发相应劫持回调。</p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>web前端面试题整理</title>
+    <url>/2020/11/15/web%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86/</url>
+    <content><![CDATA[<p>####浏览器兼容问题</p>
+<p>IE浏览器对h5语义化标签不支持</p>
+<p>浏览器之间对一些css的支持</p>
+<p>移动端兼容，主要是用rem对移动端进行适配</p>
+<p>ES6新语法的兼容</p>
+<h4 id="跨域问题"><a href="#跨域问题" class="headerlink" title="跨域问题"></a>跨域问题</h4><p>两种：</p>
+<p>JSONP：使用script link标签src href属性中的链接可以访问跨域js脚本，但是只能解决get请求，存在安全问题，不好判断是否请求失败</p>
+<p>Cors：后端设置</p>
+<h4 id="http和https的区别"><a href="#http和https的区别" class="headerlink" title="http和https的区别"></a>http和https的区别</h4><p>http是超文本传输协议，信息是明文传输</p>
+<p>https则是更具有安全性的ssl加密传输协议</p>
+<p>http和https使用的完全不同的连接方式，用的端口也不一样，前者是80，后者443</p>
+<h4 id="created和mounted的区别"><a href="#created和mounted的区别" class="headerlink" title="created和mounted的区别"></a>created和mounted的区别</h4><p>created执行时，数据以及注入到vm实例中，可以使用初始化数据，例如发送请求获取数据</p>
+<p>mounted此时视图以及渲染，可以操作dom对象</p>
+<h4 id="vuex的了解"><a href="#vuex的了解" class="headerlink" title="vuex的了解"></a>vuex的了解</h4><p>vuex是vue的状态管理工具，页面关闭时vuex中的数据也会释放</p>
+<p>vuex和localStorage的区别</p>
+<p>localStorage只要不清除缓存，就一直存在</p>
+<p>vuex只要页面关闭就释放数据</p>
+<p>vuex的优点：可以支持数据实时更新，并且使用方便</p>
+<h4 id="vue路由守卫钩子"><a href="#vue路由守卫钩子" class="headerlink" title="vue路由守卫钩子"></a>vue路由守卫钩子</h4><p>全局前置守卫：router.beforeEach</p>
+<p>全局解析钩子：router.beforeResolve</p>
+<p>全局后置钩子：router.afterEach</p>
+<p>路由独享守卫：beforeEnter</p>
+<p>组件内守卫：beforeRouteEnter、beforeRouteUpdate、beforeRouteLeave</p>
+<h4 id="清除浮动的方式"><a href="#清除浮动的方式" class="headerlink" title="清除浮动的方式"></a>清除浮动的方式</h4><p>给父级加浮动</p>
+<p>给父级加display:inline-block</p>
+<p>给父元素设置高度</p>
+<p>给父级加overflow：hidden</p>
+<p>双伪元素清除法</p>
+<h4 id="盒子水平垂直居中方法"><a href="#盒子水平垂直居中方法" class="headerlink" title="盒子水平垂直居中方法"></a>盒子水平垂直居中方法</h4><p>flex布局：</p>
+<p>给父元素设置</p>
+<p>display：flex</p>
+<p>justify-content:center        子元素水平居中</p>
+<p>align-items:center        子元素垂直居中</p>
+<p>定位：</p>
+<p>子绝父相，上下左右均为0，margin： auto</p>
+<p>定位2，使用c3：</p>
+<p>子绝父相，top和left均走50%，使用transform中的translate（50%，50%）</p>
+<p>####Rem适配：</p>
+<p>1、媒体查询</p>
+<p>@media screen and(最小宽) and(最大宽)</p>
+<p>2、js动态设置html的font-size</p>
+<p>3、淘宝提供的解决方案：flexible.js</p>
+<p>4、Rem适配是配合媒体查询和js完成的，只要知道相互转换比就行</p>
+<h4 id="promise和async、await的区别"><a href="#promise和async、await的区别" class="headerlink" title="promise和async、await的区别"></a>promise和async、await的区别</h4><p>promise是一种异步解决方案，而async和await是基于promise封装的，两个均为es6新特性</p>
+<p>async是声明函数时让他变成异步函数，</p>
+<p>await则是字面意思，等待异步执行</p>
+<h4 id="js求出最大值"><a href="#js求出最大值" class="headerlink" title="js求出最大值"></a>js求出最大值</h4><p>js的最大值是2的53次方</p>
+<p>可以用Math.max()获取到</p>
+<h4 id="ES6新特性"><a href="#ES6新特性" class="headerlink" title="ES6新特性"></a>ES6新特性</h4><p>let、const</p>
+<p>展开运算符</p>
+<p>promise</p>
+<p>结构函数</p>
+<p>箭头函数</p>
+<p>模板字符串</p>
+<h4 id="css3新特性"><a href="#css3新特性" class="headerlink" title="css3新特性"></a>css3新特性</h4><p>rgba</p>
+<p>弹性布局</p>
+<p>栅格系统</p>
+<p>动画</p>
+<p>flex</p>
+<p>选择器</p>
+<h4 id="vue中route和router的区别"><a href="#vue中route和router的区别" class="headerlink" title="vue中route和router的区别"></a>vue中route和router的区别</h4><p>route是一个跳转的路由对象，每一个路由都会有一个route对象，是一个局部对象，可以获取对应的参数</p>
+<p>router是VueRouter的一个对象，通过Vue.use和VueRouter构造函数得到一个router的实例</p>
+<h4 id="v-if和v-show的区别"><a href="#v-if和v-show的区别" class="headerlink" title="v-if和v-show的区别"></a>v-if和v-show的区别</h4><p>v-if是操作dom树的方式隐藏元素</p>
+<p>v-show是操作css中的display样式</p>
+<p>v-if比较消耗切换资源</p>
+<p>v-show比较消耗渲染资源</p>
+<h4 id="深拷贝浅拷贝"><a href="#深拷贝浅拷贝" class="headerlink" title="深拷贝浅拷贝"></a>深拷贝浅拷贝</h4><p>深拷贝</p>
+<p>JSON.parse(JSON.stringify())</p>
+<p>浅拷贝</p>
+<p>ES6：object.assign()</p>
+<h4 id="scoped"><a href="#scoped" class="headerlink" title="scoped"></a>scoped</h4><p>实现组件的私有化，不对全局造成污染，表示当前style属性只属于当前模块</p>
+<p>####组件之间的传参方式：</p>
+<p>父传子：props</p>
+<p>子传父：$event</p>
+<h4 id="ajax和axios的区别"><a href="#ajax和axios的区别" class="headerlink" title="ajax和axios的区别"></a>ajax和axios的区别</h4><p>ajax是jQuery中的方法，axios是通过promise实现的一种对ajax的封装</p>
+<p>使用ajax需要引入整个jquery，会消耗不必要的内存与性能，axios则是专门使用ajax处理请求封装的工具</p>
+<h4 id="防抖与节流"><a href="#防抖与节流" class="headerlink" title="防抖与节流"></a>防抖与节流</h4><p>防抖：执行延迟，使用定时器，在规定时间内再次触动事件时将定时器重新计算</p>
+<p>节流：利用开关思想，在第一次触发事件后将开关关闭，事件处理结束后或一定时间后，再将开关重新打开，执行下一步操作</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>test</title>
+    <url>/2020/11/24/test/</url>
+    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>如何使用hexo创建一个博客</title>
@@ -344,89 +427,6 @@
 <p>修改完毕</p>
 <p>hexo clean<br>hexo g<br>hexo d</p>
 <p>即可上传到 git 仓库同步，仓库页面会有一定时间的延迟，稍加等待即可</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>web前端面试题整理</title>
-    <url>/2020/11/15/web%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86/</url>
-    <content><![CDATA[<p>####浏览器兼容问题</p>
-<p>IE浏览器对h5语义化标签不支持</p>
-<p>浏览器之间对一些css的支持</p>
-<p>移动端兼容，主要是用rem对移动端进行适配</p>
-<p>ES6新语法的兼容</p>
-<h4 id="跨域问题"><a href="#跨域问题" class="headerlink" title="跨域问题"></a>跨域问题</h4><p>两种：</p>
-<p>JSONP：使用script link标签src href属性中的链接可以访问跨域js脚本，但是只能解决get请求，存在安全问题，不好判断是否请求失败</p>
-<p>Cors：后端设置</p>
-<h4 id="http和https的区别"><a href="#http和https的区别" class="headerlink" title="http和https的区别"></a>http和https的区别</h4><p>http是超文本传输协议，信息是明文传输</p>
-<p>https则是更具有安全性的ssl加密传输协议</p>
-<p>http和https使用的完全不同的连接方式，用的端口也不一样，前者是80，后者443</p>
-<h4 id="created和mounted的区别"><a href="#created和mounted的区别" class="headerlink" title="created和mounted的区别"></a>created和mounted的区别</h4><p>created执行时，数据以及注入到vm实例中，可以使用初始化数据，例如发送请求获取数据</p>
-<p>mounted此时视图以及渲染，可以操作dom对象</p>
-<h4 id="vuex的了解"><a href="#vuex的了解" class="headerlink" title="vuex的了解"></a>vuex的了解</h4><p>vuex是vue的状态管理工具，页面关闭时vuex中的数据也会释放</p>
-<p>vuex和localStorage的区别</p>
-<p>localStorage只要不清除缓存，就一直存在</p>
-<p>vuex只要页面关闭就释放数据</p>
-<p>vuex的优点：可以支持数据实时更新，并且使用方便</p>
-<h4 id="vue路由守卫钩子"><a href="#vue路由守卫钩子" class="headerlink" title="vue路由守卫钩子"></a>vue路由守卫钩子</h4><p>全局前置守卫：router.beforeEach</p>
-<p>全局解析钩子：router.beforeResolve</p>
-<p>全局后置钩子：router.afterEach</p>
-<p>路由独享守卫：beforeEnter</p>
-<p>组件内守卫：beforeRouteEnter、beforeRouteUpdate、beforeRouteLeave</p>
-<h4 id="清除浮动的方式"><a href="#清除浮动的方式" class="headerlink" title="清除浮动的方式"></a>清除浮动的方式</h4><p>给父级加浮动</p>
-<p>给父级加display:inline-block</p>
-<p>给父元素设置高度</p>
-<p>给父级加overflow：hidden</p>
-<p>双伪元素清除法</p>
-<h4 id="盒子水平垂直居中方法"><a href="#盒子水平垂直居中方法" class="headerlink" title="盒子水平垂直居中方法"></a>盒子水平垂直居中方法</h4><p>flex布局：</p>
-<p>给父元素设置</p>
-<p>display：flex</p>
-<p>justify-content:center        子元素水平居中</p>
-<p>align-items:center        子元素垂直居中</p>
-<p>定位：</p>
-<p>子绝父相，上下左右均为0，margin： auto</p>
-<p>定位2，使用c3：</p>
-<p>子绝父相，top和left均走50%，使用transform中的translate（50%，50%）</p>
-<p>####Rem适配：</p>
-<p>1、媒体查询</p>
-<p>@media screen and(最小宽) and(最大宽)</p>
-<p>2、js动态设置html的font-size</p>
-<p>3、淘宝提供的解决方案：flexible.js</p>
-<p>4、Rem适配是配合媒体查询和js完成的，只要知道相互转换比就行</p>
-<h4 id="promise和async、await的区别"><a href="#promise和async、await的区别" class="headerlink" title="promise和async、await的区别"></a>promise和async、await的区别</h4><p>promise是一种异步解决方案，而async和await是基于promise封装的，两个均为es6新特性</p>
-<p>async是声明函数时让他变成异步函数，</p>
-<p>await则是字面意思，等待异步执行</p>
-<h4 id="js求出最大值"><a href="#js求出最大值" class="headerlink" title="js求出最大值"></a>js求出最大值</h4><p>js的最大值是2的53次方</p>
-<p>可以用Math.max()获取到</p>
-<h4 id="ES6新特性"><a href="#ES6新特性" class="headerlink" title="ES6新特性"></a>ES6新特性</h4><p>let、const</p>
-<p>展开运算符</p>
-<p>promise</p>
-<p>结构函数</p>
-<p>箭头函数</p>
-<p>模板字符串</p>
-<h4 id="css3新特性"><a href="#css3新特性" class="headerlink" title="css3新特性"></a>css3新特性</h4><p>rgba</p>
-<p>弹性布局</p>
-<p>栅格系统</p>
-<p>动画</p>
-<p>flex</p>
-<p>选择器</p>
-<h4 id="vue中route和router的区别"><a href="#vue中route和router的区别" class="headerlink" title="vue中route和router的区别"></a>vue中route和router的区别</h4><p>route是一个跳转的路由对象，每一个路由都会有一个route对象，是一个局部对象，可以获取对应的参数</p>
-<p>router是VueRouter的一个对象，通过Vue.use和VueRouter构造函数得到一个router的实例</p>
-<h4 id="v-if和v-show的区别"><a href="#v-if和v-show的区别" class="headerlink" title="v-if和v-show的区别"></a>v-if和v-show的区别</h4><p>v-if是操作dom树的方式隐藏元素</p>
-<p>v-show是操作css中的display样式</p>
-<p>v-if比较消耗切换资源</p>
-<p>v-show比较消耗渲染资源</p>
-<h4 id="深拷贝浅拷贝"><a href="#深拷贝浅拷贝" class="headerlink" title="深拷贝浅拷贝"></a>深拷贝浅拷贝</h4><p>深拷贝</p>
-<p>JSON.parse(JSON.stringify())</p>
-<p>浅拷贝</p>
-<p>ES6：object.assign()</p>
-<h4 id="scoped"><a href="#scoped" class="headerlink" title="scoped"></a>scoped</h4><p>实现组件的私有化，不对全局造成污染，表示当前style属性只属于当前模块</p>
-<p>####组件之间的传参方式：</p>
-<p>父传子：props</p>
-<p>子传父：$event</p>
-<h4 id="ajax和axios的区别"><a href="#ajax和axios的区别" class="headerlink" title="ajax和axios的区别"></a>ajax和axios的区别</h4><p>ajax是jQuery中的方法，axios是通过promise实现的一种对ajax的封装</p>
-<p>使用ajax需要引入整个jquery，会消耗不必要的内存与性能，axios则是专门使用ajax处理请求封装的工具</p>
-<h4 id="防抖与节流"><a href="#防抖与节流" class="headerlink" title="防抖与节流"></a>防抖与节流</h4><p>防抖：执行延迟，使用定时器，在规定时间内再次触动事件时将定时器重新计算</p>
-<p>节流：利用开关思想，在第一次触发事件后将开关关闭，事件处理结束后或一定时间后，再将开关重新打开，执行下一步操作</p>
 ]]></content>
   </entry>
   <entry>
@@ -960,13 +960,13 @@
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>1111</title>
-    <url>/2020/11/25/about/me-1/</url>
+    <title>page</title>
+    <url>/2020/11/25/home/text/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>page</title>
-    <url>/2020/11/25/home/text/</url>
+    <title>1111</title>
+    <url>/2020/11/25/about/me-1/</url>
     <content><![CDATA[]]></content>
   </entry>
 </search>
